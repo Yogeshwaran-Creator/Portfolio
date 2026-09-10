@@ -1,259 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Yogi Portfolio</title>
-        
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="port.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    </head>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yogeshwaran R — Python Full Stack Developer Portfolio">
+  <title>Yogeshwaran R | Developer Portfolio</title>
+  <link rel="icon" href="assets/images/icon1-removebg-preview.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
+  <div class="cursor-glow"></div>
+  <div class="particles" aria-hidden="true"></div>
 
-<!-- Navbar -->
-
-<header>
-    <nav class="navbar">
-
-        <div class="logo">
-            <span>{ }</span> Yogeshwaran
-        </div>
-
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-
-        <button class="cv-btn">
-            Download CV
-        </button>
-
+  <header class="navbar">
+    <a class="logo" href="#home"><span>YR</span> Yogeshwaran R</a>
+    <button class="menu-toggle" aria-label="Open navigation">☰</button>
+    <nav class="nav-links">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#course">Course</a>
+      <a href="#contact">Contact</a>
     </nav>
-</header>
+    <a class="nav-cv" href="./assets/pdf's/Yogeshwaran_R_Resume.pdf" download>Download CV</a>
+    <button class="theme-toggle" aria-label="Toggle theme">☼</button>
+  </header>
 
-<!-- Main -->
-
-<section id="home" class="main">
-
-    <div class="main-content">
-
-        <h3>Hello, I'm</h3>
-        <h1>Yogeshwaran R</h1>
-        <h2>Python <span>Full Stack Developer</span></h2>
-        <p>
-            I build modern and responsive web
-            applications using Python, Django,
-            React and modern technologies.
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WELCOME TO MY DIGITAL SPACE</p>
+        <h1>Hello, I'm <br><strong>Yogeshwaran <span>R</span></strong></h1>
+        <h2><span id="role-text"></span><span class="role-cursor">&nbsp;</span></h2>
+        <p class="hero-text">
+          Passionate about building clean, efficient and impactful web applications.
+          Currently learning, building and exploring new technologies every day.
         </p>
-
-        <div class="main-buttons">
-
-            <a href="" class="btn1">View Projects</a>
-            <a href="" class="btn2">Contact Me</a>
-
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Work <span>　→</span></a>
+          <a class="btn secondary" href="#contact">Contact Me <span>　↗</span></a>
         </div>
-
-        <div class="social-icons">
-
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-
+        <div class="socials">
+          <a href="https://github.com/Yogeshwaran-Creator" aria-label="GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/yogeshwaran--r/" aria-label="LinkedIn" target="_blank"><i class="fa-brands fa-square-linkedin"></i></a>
+          <a href="mailto:yogeshwaranrajkumar80@gmail.com" aria-label="Email" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+          <a href="https://www.instagram.com/_the_lucky_guy/?__pwa=1#" aria-label="Instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://leetcode.com/u/yogeshwaran-creator/" aria-label="LeetCode" target="_blank"><i class="fa-brands fa-leetcode"></i></a>
         </div>
+      </div>
 
-    </div>
-
-
-</section>
-
-<!-- About -->
-
-<section id="about" class="about">
-
-    <h4>ABOUT ME</h4>
-
-    <h2>Passionate about building digital solutions</h2>
-
-    <div class="about-card">
-
-        <img src="profile.jpeg" alt="Profile img">
-
-        <div class="about-text">
-
-            <p>
-                I'm a Python Full Stack Developer
-                with a passion for creating modern 
-                web applications and solving
-                real-world problems. 
-                I'm eager to contribute to a collaborative team, take on new challenges, and 
-                grow as a software developer while delivering high-quality solutions.
-            </p>
-            <br><br><hr>
-            <div class="details">
-
-                <div>
-                    <strong>Name</strong>
-                    <p>Yogeshwaran R</p>
-                </div>
-
-                <div>
-                    <strong>Experience</strong>
-                    <p>Fresher</p>
-                </div>
-
-                <div>
-                    <strong>Location</strong>
-                    <p>Chennai, India</p>
-                </div>
-
-                <div>
-                    <strong>Email</strong>
-                    <p>yogeshwaranrajkumar80@gmail.com</p>
-                </div>
-
-            </div>
-
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="code-float">&lt;/&gt;</div>
+        <span class="tech-badge badge-html"><i class="fa-brands fa-html5"></i> HTML</span>
+        <span class="tech-badge badge-bootstrap"><i class="fa-brands fa-bootstrap"></i> Bootstrap</span>
+        <span class="tech-badge badge-python"><i class="fa-brands fa-python"></i> Python</span>
+        <div class="profile-float">
+          <div class="profile-ring">
+            <img src="assets/images/profile.jpeg" alt="Yogeshwaran R">
+          </div>
         </div>
-
-    </div>
-
-</section>
-
-<!-- Skills -->
-
-<section id="skills" class="skills">
-
-    <h4>MY SKILLS</h4>
-
-    <h2>Technologies I work with</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <img src="html.png" alt="html">
-            <h3>HTML</h3>
-            <span>90%</span>
+        <div class="availability">
+          <span class="status-dot"></span>
+          <small>Available for</small>
+          <strong>Opportunities</strong>
         </div>
+      </div>
+      <div class="scroll-hint">↓<span>Scroll</span></div>
+    </section>
 
-        <div class="skill-card">
-            <img src="css.png" alt="css">
-            <h3>CSS</h3>
-            <span>90%</span>
+    <section id="about" class="section">
+      <div class="section-heading reveal"><span>01</span><div><p>GET TO KNOW ME</p><h2>About Me</h2></div></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>I'm a Computer Science Engineering graduate with a strong interest in Web Development and problem solving. I enjoy turning ideas into real-world applications and continuously improving my technical skills.</p>
+          <div class="details">
+            <div><span><i class="fa-solid fa-user"></i></span><small>Name</small><b>Yogeshwaran R</b></div>
+            <div><span><i class="fa-solid fa-location-dot"></i></span><small>Location</small><b>Chennai, India</b></div>
+            <div><span><i class="fa-solid fa-graduation-cap"></i></span><small>Degree</small><b>B.E. Computer Science and Engineering</b></div>
+            <div><span><i class="fa-regular fa-envelope"></i></span><small>Email</small><b>yogeshwaranrajkumar80@gmail.com</b></div>
+            <div><span><i class="fa-solid fa-university"></i></span><small>College</small><b>E.G.S Pillay Engineering College</b></div>
+            <div><span><i class="fa-solid fa-briefcase"></i></span><small>Experience</small><b>Fresher</b></div>
+          </div>
+          <a class="btn primary small-btn" href="./assets/pdf's/Yogeshwaran_R_Resume.pdf" download>Download CV ↓</a>
         </div>
-
-        <div class="skill-card">
-            <img src="Django.png" alt="Django">
-            <h3>Django</h3>
-            <span>80%</span>
+        <div class="about-card reveal">
+          <div class="mini-card"><span><i class="fa-solid fa-laptop"></i></span><p>Learning<strong>Everyday</strong></p></div>
+          <div class="mini-card"><span><i class="fa-solid fa-code"></i></span><p>Building<strong>Projects</strong></p></div>
+          <div class="mini-card"><span><i class="fa-solid fa-chart-line"></i></span><p>Growing<strong>Consistently</strong></p></div>
+          <div class="mini-card"><span><i class="fa-solid fa-lightbulb"></i></span><p>Creating & Exploring<strong>New Ideas</strong></p></div>
         </div>
+      </div>
+    </section>
 
-        <div class="skill-card">
-            <img src="js.gif" alt="js">
-            <h3>JavaScript</h3>
-            <span>80%</span>
+    <section id="skills" class="section">
+      <div class="section-heading reveal"><span>02</span><div><p>WHAT I WORK WITH</p><h2>Skills</h2></div></div>
+      <div class="skills-grid reveal">
+        <div class="skill"><div class="skill-icon python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" loading="lazy"></div><b>Python</b><small>Programming</small></div>
+        <div class="skill"><div class="skill-icon html"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo" loading="lazy"></div><b>HTML5</b><small>Structure</small></div>
+        <div class="skill"><div class="skill-icon css"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 logo" loading="lazy"></div><b>CSS3</b><small>Styling</small></div>
+        <div class="skill"><div class="skill-icon js"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" loading="lazy"></div><b>JavaScript</b><small>Frontend</small></div>
+        <div class="skill"><div class="skill-icon boot"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap logo" loading="lazy"></div><b>Bootstrap</b><small>UI Framework</small></div>
+        <div class="skill"><div class="skill-icon git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git logo" loading="lazy"></div><b>Git</b><small>Version Control</small></div>
+        <div class="skill"><div class="skill-icon gh"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub logo" loading="lazy"></div><b>GitHub</b><small>Repositories</small></div>
+        <div class="skill"><div class="skill-icon postgresql"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL logo" loading="lazy"></div><b>PostgreSQL</b><small>Database</small></div>
+        <div class="skill"><div class="skill-icon vs"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code logo" loading="lazy"></div><b>VS Code</b><small>Development</small></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading project-heading reveal"><span>03</span><div><p>THINGS I'VE BUILT</p><h2>Projects</h2></div><a class="outline-btn" href="#">View All Projects ↗</a></div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/images/emotion-movie-recommender.png" alt="Movie Recommendation Based on Emotion project screenshot"></div>
+          <div class="project-content"><h3>Movie Recommender (Emotion-Based)</h3><p>Suggests movies to watch based on the user's selected mood/emotion.</p><div class="tags"><span>Python</span><span>Streamlit</span></div><a href="#" class="project-link">↗</a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/images/multimodal-classifier.png" alt="Multimodal Classifier dashboard screenshot"></div>
+          <div class="project-content"><h3>Multimodal Classifier</h3><p>Dashboard for classifying and analyzing text, image and video inputs.</p><div class="tags"><span>Python</span><span>Machine Learning</span></div><a href="#" class="project-link">↗</a></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-image"><img src="assets/images/ecommerce-clone.png" alt="E-commerce website clone screenshot"></div>
+          <div class="project-content"><h3>E-Commerce Website Clone</h3><p>A Flipkart/Amazon-style shopping site with product listings and cart.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a href="#" class="project-link">↗</a></div>
+        </article>
+      </div>
+      <div class="stats reveal">
+        <div><strong>3+</strong><span>Projects Completed</span></div>
+        <div><strong>5+</strong><span>Technologies Learned</span></div>
+        <div><strong>100+</strong><span>Problems Solved</span></div>
+        <div><strong>∞</strong><span>Learning & Growing</span></div>
+      </div>
+    </section>
+
+    <section class="section dual-section">
+      <div id="education">
+        <div class="section-heading reveal"><span>04</span><div><p>MY ACADEMIC JOURNEY</p><h2>Education</h2></div></div>
+        <div class="edu-card reveal"><h3>B.E. Computer Science Engineering</h3><p>E.G.S Pillay Engineering College, Nagapattinam</p><small>2022 — 2026</small><b class="badge">Computer Science</b></div>
+      </div>
+      <div id="certifications">
+        <div class="section-heading reveal"><span>05</span><div><p>LEARNING MILESTONES</p><h2>Certifications</h2></div></div>
+        <div class="cert-card reveal">
+          <ul>
+            <li>CodeCrush' 5-Day Value-Added Course on Full Stack Development <br>　(Java, HTML, CSS, JS, Django) — DataNerdz.AI </li>
+            <li>10-Days Hands-On Training on MERN Stack Development — Skill Tech Services </li>
+            <li>10-Days Hands-On Workshop on Cloud Computing — Orionshift Private Limited </li>
+          </ul>
+          <div class="cert-mark">CERT<br><strong>+</strong></div>
         </div>
- 
-        <div class="skill-card">
-            <img src="react.gif" alt="React">
-            <h3>React</h3>
-            <span>75%</span>
+      </div>
+    </section>
+
+    <section id="course" class="section">
+      <div class="section-heading reveal"><span>06</span><div><p>CURRENTLY LEARNING</p><h2>Course</h2></div></div>
+      <div class="course-card reveal">
+        <div class="course-icon"><i class="fa-solid fa-book"></i></div>
+        <div class="course-body">
+          <p class="course-eyebrow"><span class="course-dot"></span>CURRENTLY LEARNING</p>
+          <h3>Python Full Stack Development</h3>
+          <p class="course-provider">Login360</p>
+          <span class="course-status"><i class="fa-regular fa-calendar"></i> Ongoing</span>
+          <p class="course-desc">Currently learning Python Full Stack Development with a focus on Python programming, Django, frontend development, databases, Bootstrap, and modern web application development.</p>
         </div>
+      </div>
+    </section>
 
-        <div class="skill-card">
-            <img src="python.gif" alt="python">
-            <h3>Python</h3>
-            <span>85%</span>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- Projects -->
-
-<section id="projects" class="projects">
-
-    <h4>MY PROJECTS</h4>
-
-    <h2>Some of my recent work</h2>
-
-    <div class="project-container">
-
-        <div class="project-card">
-
-            <img src="taskmanager.webp">
-            <h3>Task Manager</h3>
-            <p>A full stack task management app built with Django, SQLite and Bootstrap.</p>
-
-        </div>
-
-        <div class="project-card">
-
-            <img src="ecommerce.jpg">
-            <h3>E-Commerce Website</h3>
-            <p>A responsive e-commerce website built with React, Context API and Stripe.</p>
-
-        </div>
-
-        <div class="project-card">
-
-            <img src="analytics.png">
-            <h3>Analytics Dashboard</h3>
-            <p>A data analytics dashboard built with python Django and Chart.js.</p>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- Contact -->
-
-<section id="contact" class="contact">
-
-    <div class="contact-left">
-        <small>LET'S CONNECT</small><br><br>
-        <h2>Get in touch</h2><br>
-        <br>
-        <p>
-            I'm always open to discussing
-            new opportunities, <br><br> collaborations or just a friendly chat.
-        </p>
-        <br><br>
-        <p>
-            📧 yogeshwaranrajkumar@gmail.com
-        </p>
-        <br><br>
-        <p>
-            📞 +91 6474450637
-        </p>
-
-    </div>
-
-    <div class="contact-right">
-
-        <form>
-
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <textarea placeholder="Your Message"></textarea>
-            <button>Send Message</button>
-
+    <section id="contact" class="section contact-section">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's Connect<span>.</span></h2>
+        <p>Have a project in mind or want to connect? Feel free to reach out.</p>
+        <a href="mailto:yogeshwaranrajkumar80@gmail.com"><i class="fa-regular fa-envelope"></i> yogeshwaranrajkumar80@gmail.com</a>
+        <a href="tel:+916374450637"><i class="fa-solid fa-phone"></i>  +91 63744 50637</a>
+        <span><i class="fa-solid fa-location-dot"></i>  Chennai, India</span>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <h3 class="form-heading">Contact Me</h3>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row"><input required type="text" placeholder="Your Name"><input required type="email" placeholder="Your Email"></div>
+          <textarea required rows="6" placeholder="Your Message"></textarea>
+          <button class="btn primary" type="submit">Send Message　➤</button>
+          <p class="form-message"></p>
         </form>
+      </div>
+    </section>
+  </main>
 
-    </div>
-
-</section>
-
-<footer>
-    © 2026 Yogi Portfolio
-</footer>
-
+  <footer>
+    <a class="logo" href="#home"><span>YR</span> Yogeshwaran R</a>
+    <p>© <span id="year"></span> Yogeshwaran R. All rights reserved.</p>
+    <p>Built with lots of <span><i class="fa-solid fa-heart"></i></span> by Yogesh </p>
+  </footer>
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
