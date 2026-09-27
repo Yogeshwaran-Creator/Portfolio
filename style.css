@@ -177,6 +177,11 @@ a {
   background: #448fff;
   animation: blink 1s step-end infinite;
 }
+.cert-mark:hover{
+  transform: scale(1.03);
+  transition: .3s;
+  box-shadow: 0 0 5px #0af;
+}
 @keyframes blink {
   50% {
     opacity: 0;
@@ -870,6 +875,9 @@ body.light .course-desc {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
+}
+textarea{
+  resize: vertical;
 }
 .contact-form {
   border: 1.7px solid #12365a;
